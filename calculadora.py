@@ -2,6 +2,7 @@ def soma(x, y):
     # Utilizando Assertions (voltado para outros desenvolvedores)
     # Verificando se x é uma instância de int ou float (Assertions)
     assert isinstance(x, (int, float)), 'X precisa ser do tipo int ou float'
+    assert isinstance(y, (int, float)), 'Y precisa ser do tipo int ou float'
     return x + y
 
 
